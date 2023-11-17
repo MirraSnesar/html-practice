@@ -1,0 +1,30 @@
+.benefits {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 15px;
+}
+.benefits-header {
+    color: var(--color-text-subtitles);
+    font-family: var(--font-text-menu-h);
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.benefits-subtitle {
+    color: var(--color-text-title);
+    font-family: var(--font-text-menu-s);
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.benefits-img {
+    width: 50px;
+    height: 50px;
+}

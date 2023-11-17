@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text-header-top-line: rgb(166,58,24);
+    --color-text-header: #7c7669;
+    --color-text-subtitles: rgb(145,140,116);
+    --color-text-title: rgb(163,159,150);
+    --color-text-paragrapf: rgb(183,190,198);
+    --on-image-text-color: #fff;
+    --background-color: #f6f1ed;
+    --font-text-menu-h: 'Montserrat', serif;
+    --font-text-menu-s: 'Roboto', serif;
+    --font-text-menu-p: 'Dancing Script', serif;
+    --w-title-offset: 62px;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+ 
+img {
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}

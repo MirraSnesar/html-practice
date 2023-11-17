@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link rel="shortcut icon" href="img/home/logo-main.png" type="icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
+    <header data-include="main-page/header.html"></header>
+    <main>
+        <section data-include="main-page/samis-flowers.html"></section>
+        <section data-include="main-page/benefits.html"></section>
+        <section data-include="main-page/about-us.html"></section>
+        
+        <section data-include="partials/home.cta.partial.html"></section> 
+        
+        <section data-include="partials/categories.partial.html"></section> 
+        <section data-include="partials/home-menu.partial.html"></section> 
+        
+        <section data-include="partials/home.catering.partial.html"></section>
+        <section data-include="partials/home.gallery.partial.html"></section>
+        <section data-include="partials/home.news.partial.html"></section>
+    </main>
+    <footer data-include="partials/home.footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script type="module" src="js/index.js"></script>
 </body>
+
 </html>
+

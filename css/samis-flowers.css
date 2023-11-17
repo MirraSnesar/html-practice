@@ -1,0 +1,75 @@
+.samis-flowers {
+    background-color: var(--background-color);
+    display: grid;
+    text-align: left;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 5px;
+}
+.samis-flowers_text{
+    margin-left: 100px;
+}
+.samis-flowers_paragraph {
+    color: var(--color-text-paragrapf);
+    font-family: var(--font-text-menu-p);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.samis-flowers_header {
+    color: var(--color-text-header);
+    font-family: var(--font-text-menu-h);
+    font-size: 60px;
+    padding-bottom: 20px;
+
+}
+.samis-flowers_title{
+    color: var(--color-text-subtitles);
+    font-family: var(--font-text-menu-s);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.background-img {
+    background-image: var(--background-color);
+    border-radius: 40%;
+}
+{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: var(--background-color);
+    color: var(--color-text-subtitles);
+    border-color: var(--color-text-subtitles);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: color 0.3s;
+    
+}
+.samis-button_link-container{
+    margin-top: 30px; 
+    margin-bottom: 105px;
+}
+.samis-button  {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--color-text-subtitles);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 650;
+    height: 46.08px;
+    width: 164px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--color-text-subtitles);
+    margin: 0px 15px 0px 15px;
+}
+.samis-button:hover {
+    background-color: var(--color-text-subtitles);
+    color: var(--background-color);
+}
