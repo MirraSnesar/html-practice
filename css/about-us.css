@@ -40,7 +40,7 @@
 }
 .about-us_section{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 35% 65%;
     padding-top: 30px;
     gap: 0;
 }
