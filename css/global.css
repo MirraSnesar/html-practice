@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-text-header-top-line: rgb(166,58,24);
+    --color-fill: rgb(124, 119, 117);
     --color-text-header: #7c7669;
     --color-text-subtitles: rgb(145,140,116);
     --color-text-title: rgb(163,159,150);
