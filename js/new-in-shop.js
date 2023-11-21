@@ -1,4 +1,4 @@
-import * as catalogue from './products-catalogue.js'
+import { products } from './products-catalogue.js'
 
 const slides = []
 let currentSlide = 0
@@ -7,13 +7,12 @@ nextButton.addEventListener('click', nextSlide)
 const prevButton = document.querySelector('.new-in-shop__arrowR')
 prevButton.addEventListener('click', prevSlide)
 
-renderProduct(catalogue.products)
+renderProduct(products)
 
 function renderProduct(products) {
     const productsContainer = document.querySelector('.new-in-shop__products');
     productsContainer.innerHTML = '';
     for (let i = 0; i < products.length; i++) {
-        if (products[i].bestDeal) {
             const content = `
             <div class="new-in-shop__product product">
                 <a class="id-${products[i].code}" href="store-product.html?id=${products[i].code}"><img src="${products[i].images[0]}" alt="${products[i].name}"></img></a>
@@ -22,7 +21,6 @@ function renderProduct(products) {
                 <a class="button add-btn" href="#cart-badge"><strong>Add to cart</strong></a>
             </div>`
             slides.push(content)
-        }
     }
     renderSlide()
 }
@@ -32,7 +30,7 @@ function renderSlide() {
     productsContainer.innerHTML = '';
 
     if (window.matchMedia('(min-width: 990px)').matches) {
-        for (let i = currentSlide; i < currentSlide + 3; i++) {
+        for (let i = currentSlide; i < currentSlide + 4; i++) {
             const slideIndex = i >= slides.length ? i - slides.length : i;
             productsContainer.innerHTML += slides[slideIndex];
         }

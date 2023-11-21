@@ -1,7 +1,7 @@
 .new-in-shop {
-    max-width: 1200px;
-    padding: 90px 0 50px 0;
-    margin: auto;
+    /* max-width: 1200px; */
+    /* padding: 90px 0 50px 0;
+    margin: auto; */
     background-color: var(--background-color);
 }
 
@@ -37,7 +37,10 @@
 
 .new-in-shop__outercontainer {
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    max-width: 960px;
 }
 
 .new-in-shop__products {

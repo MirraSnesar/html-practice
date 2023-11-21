@@ -11,13 +11,19 @@
 }
 
 :root {
-    --color-fill: rgb(124, 119, 117);
+    --color-header: rgb(255, 255, 255);
     --color-text-header: #7c7669;
     --color-text-subtitles: rgb(145,140,116);
     --color-text-title: rgb(163,159,150);
     --color-text-paragrapf: rgb(183,190,198);
-    --on-image-text-color: #fff;
     --background-color: #f6f1ed;
+    --heard--burger--color:rgb(255, 252, 250);
+    --burger--menu--color: #706c6c;
+    --social--logo--second--color:rgba(50, 48, 48, 0);
+    --social--logo--first--color:#9d9895;
+    --social--frame--color:rgb(118, 115, 113);
+    --social--background--first--color:rgba(0, 0, 0, 0);
+    --social--background--second--color:#816f65;
     --font-text-menu-h: 'Montserrat', serif;
     --font-text-menu-s: 'Roboto', serif;
     --font-text-menu-p: 'Dancing Script', serif;
