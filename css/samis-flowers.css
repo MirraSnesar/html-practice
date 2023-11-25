@@ -37,22 +37,6 @@
     background-image: var(--background-color);
     width: 70%;
 }
-{
-    display: inline-block;
-    padding: 15px 40px;
-    background-color: var(--background-color);
-    color: var(--color-text-subtitles);
-    border-color: var(--color-text-subtitles);
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    border-top-right-radius: 7px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    transition: color 0.3s;
-    
-}
 .samis-button_link-container{
     margin-top: 30px; 
     margin-bottom: 105px;

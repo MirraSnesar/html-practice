@@ -1,7 +1,5 @@
 .new-in-shop {
-    /* max-width: 1200px; */
-    /* padding: 90px 0 50px 0;
-    margin: auto; */
+    margin: 0;
     background-color: var(--background-color);
 }
 
@@ -48,6 +46,7 @@
     grid-template-columns: 1fr;
     gap: 16px;
     text-align: center;
+    justify-content: center;
 }
 
 .new-in-shop__product .product {
@@ -82,6 +81,29 @@
 
 .new-in-shop__product .button {
     margin-top: 24px;
+}
+.samis-button_link-container{
+    margin-top: 30px; 
+    margin-bottom: 105px;
+}
+.samis-button  {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--color-text-subtitles);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 650;
+    height: 46.08px;
+    width: 164px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--color-text-subtitles);
+    margin: 0px 15px 0px 15px;
+}
+.samis-button:hover {
+    background-color: var(--color-text-subtitles);
+    color: var(--background-color);
 }
 
 .new-in-shop__carousel-indicators {
@@ -189,7 +211,7 @@
     }
 
     .new-in-shop__products {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
 
     .new-in-shop__product .product__name {

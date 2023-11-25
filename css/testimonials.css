@@ -2,7 +2,6 @@
     text-align: center;
     background-color: var(--background-color);
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 .testimonials__header {
     padding: 0 15px;
@@ -94,11 +93,11 @@
 }
 
 .indicator-nav__button:hover {
-    background-color: var(--color-text-paragrapf);
+    background-color: var(--color-text-subtitles);
 }
 
 .indicator-nav__button--active {
-    background-color: var(--color-fill);
+    background-color: var(--color-text-subtitles);
 }
 
 @media (min-width: 768px) {

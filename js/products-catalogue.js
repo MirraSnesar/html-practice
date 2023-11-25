@@ -15,7 +15,7 @@ const autumn = {
     composition: 'giant lily, chrysanthemums, dahlias, pansies',
     NewInShop: true,
     code: '20',
-    price: 69,
+    price: 59,
     currency: 'USD',
     inStock: true,
     images: ['img/new-in-shop/autumn.png'],
@@ -75,7 +75,7 @@ const grace = {
     composition: 'roses, dahlias, daisies, ferns',
     NewInShop: true,
     code: '8',
-    price: 59,
+    price: 80,
     currency: 'USD',
     inStock: true,
     images: ['img/new-in-shop/grace.png'],
@@ -126,6 +126,17 @@ const ellie = {
     images: ['img/new-in-shop/ellie.png'],
     description: "Fresh and delicate, like a summer day in a flowery meadow, this bouquet is perfect for any occasion.",
 }
+const splash = {
+    name: 'Splash',
+    composition: 'bellflowers, lilies, chrysanthemums',
+    NewInShop: true,
+    code: '23',
+    price: 59,
+    currency: 'USD',
+    inStock: true,
+    images: ['img/new-in-shop/splash.png'],
+    description: "A bright splash of color and positive emotions — that's what this bouquet is, created by our florists specifically for the wishes of a good day.",
+}
 
 const products = [
     daphne,
@@ -139,6 +150,7 @@ const products = [
     sparkle,
     ginebra,
     ellie,
+    splash,
 ]
   
 export { products }
