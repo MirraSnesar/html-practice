@@ -17,12 +17,12 @@ if (!url.includes('store')) {
 }
 
 const instagramPhotos = [
-    'img/footer-photogallery-corks.png',
-    'img/footer-photogallery-drinking.png',
-    'img/footer-photogallery-bottle&fruits.png',
-    'img/footer-photogallery-bottles&glass.png',    
-    'img/footer-photogallery-grapes.png',
-    'img/footer-photogallery-wine.png'
+    'img/footer/florist.jpeg',
+    'img/footer/flor.jpeg',
+    'img/footer/birds-paradise.jpeg',
+    'img/footer/roses.jpeg',    
+    'img/footer/sissors.jpeg',
+    'img/footer/stok.jpeg'
 ]
 
 
@@ -65,7 +65,7 @@ rightArrow.addEventListener('click', scrollRight)
 function scrollLeft() {
     const currentPhoto = document.querySelector('.footer__instagram-large-img')
     currentPhoto.style.transform = 'translateX(-100%)'
-    const currentSrc = currentPhoto.src.substr(currentPhoto.src.search('img/footer-'))
+    const currentSrc = currentPhoto.src.substr(currentPhoto.src.search('img/footer/'))
 
     const newSrc = instagramPhotos.indexOf(currentSrc) === instagramPhotos.length - 1 ? instagramPhotos[0] : instagramPhotos[instagramPhotos.indexOf(currentSrc) + 1]
     const newPhoto = document.createElement('img')
@@ -88,7 +88,7 @@ function scrollLeft() {
 function scrollRight() {
     const currentPhoto = document.querySelector('.footer__instagram-large-img')
     currentPhoto.style.transform = 'translateX(110%)'
-    const currentSrc = currentPhoto.src.substr(currentPhoto.src.search('img/footer-'))
+    const currentSrc = currentPhoto.src.substr(currentPhoto.src.search('img/footer/'))
 
     const newSrc = instagramPhotos.indexOf(currentSrc) === 0 ? instagramPhotos[instagramPhotos.length - 1] : instagramPhotos[instagramPhotos.indexOf(currentSrc) - 1]
     const newPhoto = document.createElement('img')

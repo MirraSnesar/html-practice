@@ -11,7 +11,20 @@
     gap: 15px;
 }
 .locations-img {
+    width: 50%;
+    background-color: var(--background-color);
+    padding: 0px 0px 50px 50px;
+}
+.locations_map {
     width: 70%;
+    min-height: 400px;
+
+}
+.locations-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
 }
 .locations__title {
     color: var(--color-text-paragrapf);
@@ -29,6 +42,7 @@
 .locations__divider {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
     gap: 15px;
     text-align: center;
     justify-content: center;

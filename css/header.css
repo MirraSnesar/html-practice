@@ -82,6 +82,10 @@
     fill: currentColor;
 }
   
+.header__link {
+    white-space: nowrap;
+}
+
 .header__nav__links ul li a {
     color: var(--header--nav--links--first--color);
     text-decoration: none;

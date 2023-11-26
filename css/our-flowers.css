@@ -71,6 +71,7 @@
 .tab-item__price-section {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .tab-discount {
