@@ -1,0 +1,173 @@
+.reservation_container {
+    display: flex;
+    background-color: var(--background-color);
+ 
+ }
+ .reservation_content {
+    flex: 1;
+    margin: 100px 40px 60px 60px;
+    padding: 0px 40px 0px 25px;
+ }
+ .reservation_form {
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    margin: 100px 60px 60px 0px;
+    background-color: var(--footer--background--color);
+    box-shadow: 0px 0px 6px 2px rgb(175 168 168 / 83%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+ 
+ .reservation_detail {
+   display: flex;
+   margin: 40px 0px 0px 0px;
+   text-align: center;
+   justify-content: center;
+ }
+
+ .reservation_heading {
+   color: var(--color-text-paragrapf);
+   font-family: var(--font-text-menu-p);
+   font-size: 25px;
+   padding-bottom: 20px;
+ }
+ .reservation_title {
+   color: var(--color-text-header);
+   font-family: var(--font-text-menu-h);
+   font-size: 40px;
+   padding-bottom: 20px;
+ }
+ .reservation_description {
+   color: var(--color-text-subtitles);
+   font-family: var(--font-text-menu-s);
+   font-size: 25px;
+   padding-bottom: 20px;
+}
+
+.header_reservation_details {
+    font-family: var(--font-text-menu-h);
+    font-size: 24px;
+    color: var(--color-text-header);
+    text-align: left;
+    font-weight: 500;
+    line-height: 28.5px;
+    font-style: normal;
+}
+.reservation_details_text {
+       font-family: var(--font-text-menu-s);
+       font-size: 17px;
+       color: var(--color-text-subtitles);
+       text-align: left;
+       font-weight: 400;
+       line-height: 24.5px;
+}
+
+.reservation_detail-icon {
+   width: 100px;
+   padding-right: 15px;
+}  
+    .reservation_form_title {
+       font-family: var(--font-text-menu-h);
+       font-size: 42px;
+       color: var(--color-text-header);
+       line-height: 40.8px;
+       overflow-wrap: break-word;
+       padding-top: 30px;
+       padding-bottom: 15px;
+    }
+ 
+    .reservation_input, /* Стилі для полів вводу */
+ .reservation__input select { /* Стилі для вибірки ресторану та кількості осіб */
+     display: block; /* Зробить елементи блоковими, щоб центрувати їх по горизонталі */
+     margin: 0 auto; /* Центрує елементи по горизонталі */
+ }
+ 
+ .reservation_input input[type="text"],
+ .reservation_input input[type="tel"],
+ .reservation_input input[type="email"],
+ .reservation_input input[type="message"],
+ .reservation_input select {
+     width: 70%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border: 2px solid #f1ecec;
+     border-radius: 5px 20px 20px 20px;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     
+ }
+ 
+ 
+ .reservation_input input:focus,
+ .reservation_input select:focus {
+     border-color: rgba(75, 146, 118, 0.767);
+     outline: none;
+ }
+ 
+ .reservation_input input::placeholder,
+ .reservation_input select::placeholder {
+     color: #161212e5;
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     color: var(--color-text-paragrapf);
+     text-align: left;
+     font-weight: 400;
+ 
+ 
+ }
+ .reservation_submit {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: var(--background-color);
+   color: var(--color-text-subtitles);
+   text-align: center;
+   font-size: 16px;
+   font-weight: 650;
+   height: 46.08px;
+   width: 300px;
+   text-decoration: none;
+   cursor: pointer;
+   border: 2px solid var(--color-text-subtitles);
+   margin: 0px 15px 15px 15px;
+ }
+ .reservation_submit:hover {
+   background-color: var(--color-text-subtitles);
+   color: var(--background-color);
+ }
+ .samis-button_link-container{
+   margin-top: 15px; 
+   margin-bottom: 105px;
+}
+
+
+
+ @media (max-width: 768px) {
+    .reservation_container {
+      flex-direction: column;
+    }
+ 
+ 
+    .reservation_content {
+       margin: 40px 20px 20px 10px;
+       padding: 20px;
+       /*border: 2px solid rgb(248, 52, 26);*/
+    
+    }
+    .reservation_form {
+       text-align: center;
+       align-items: center;
+       margin: 40px 20px 20px 10px;
+       padding: 15px;
+    }
+    .reservation_submit {
+       margin: 10px 15px 0px 15px;
+    }
+  
+ }
+ 
+  

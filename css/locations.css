@@ -1,0 +1,88 @@
+.locations {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 45% 55%;
+    text-align: left;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 100px;
+    gap: 15px;
+}
+.locations-img {
+    width: 70%;
+}
+.locations__title {
+    color: var(--color-text-paragrapf);
+    font-family: var(--font-text-menu-p);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.locations__subtitle {
+    color: var(--color-text-header);
+    font-family: var(--font-text-menu-h);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.locations__divider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.locations-subtitle-adress {
+    color: var(--color-text-title);
+    font-family: var(--font-text-menu-s);
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.locations__subtitle-contacts {
+    color: var(--color-text-title);
+    font-family: var(--font-text-menu-s);
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.locations__hr {
+}
+.locations__details{
+    display: flex;
+    color: var(--color-text-subtitles);
+    font-family: var(--font-text-menu-s);
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.locations__item {
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+   
+}
+.samis-button_link-container{
+    margin-top: 30px; 
+    margin-bottom: 105px;
+}
+.samis-button  {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--background-color);
+    color: var(--color-text-subtitles);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 650;
+    height: 46.08px;
+    width: 164px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--color-text-subtitles);
+    margin: 0px 15px 0px 15px;
+}
+.samis-button:hover {
+    background-color: var(--color-text-subtitles);
+    color: var(--background-color);
+}

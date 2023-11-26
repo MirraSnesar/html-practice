@@ -12,4 +12,5 @@ document.addEventListener ('partialsLoaded', () => {
     import('./shop-list.js');
     import('./store-home.js');
     import('./our-flowers.js');
+    import('./modal-bg-form.js');
 });
