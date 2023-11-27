@@ -1,4 +1,5 @@
 const addBtns = document.querySelectorAll('.add-btn');
+
 const cartBadge = document.querySelector('.cart-badge');
 let itemCount = 0; // Початково кількість товарів в корзині - 0
 const cartCounter = document.querySelector('.cart-badge__counter');

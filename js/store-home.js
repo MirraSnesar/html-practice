@@ -1,15 +1,7 @@
+import * as catalogue from './products-catalogue.js';
 async function loadProductsData() {
-    try {
-      const response = await fetch('/1054-team-01/api/products.json');
-      if (!response.ok) {
-        throw new Error('Failed to fetch data');
-      }
-      const catalogue = await response.json();
-      return  {'products': catalogue};
-    } catch (error) {
-      console.error('Error loading data:', error);
-      throw error;
-    }
+
+    return  {'products': catalogue};
   }
   
   const catalogue = loadProductsData()

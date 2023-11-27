@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cartButton = document.querySelector('.add-btn')
     cartButton.href = `store-product.html?id=${productIdentifier}#cart-badge`
+
     })
 
     let currencies
