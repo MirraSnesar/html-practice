@@ -9,14 +9,14 @@
 
 .modal__button {
     display: flex;
-    background-color: var(--cart-badge-background-color);
+    background-color: var(--color-header);
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 
 .packet {
-    stroke: black;
+    stroke: var(--color-text-header);
     display: block;
     margin: auto;
     width: 40px;
@@ -28,8 +28,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color: var(--cart-badge-conter-color);
-    color: var(--text-color);
+    background-color: var(--color-text-header);
+    color: var(--color-header);
     border-radius: 50%;
     width: 24px;
     height: 24px;
