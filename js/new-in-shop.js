@@ -15,11 +15,11 @@ function renderProduct(products) {
     for (let i = 0; i < products.length; i++) {
             const content = `
             <div class="new-in-shop__product product">
-                <a class="id-${products[i].code}" href="store-product.html?id=${products[i].code}"><img src="${products[i].images[0]}" alt="${products[i].name}"></img></a>
-                <a href="store-product.html?id=${products[i].code}" class="product__name" id=${products[i].code}">${products[i].name}</a>
+                <a class="id-${products[i].code}" href="store-product?id=${products[i].code}"><img src="${products[i].images[0]}" alt="${products[i].name}"></img></a>
+                <a href="store-product?id=${products[i].code}" class="product__name" id=${products[i].code}">${products[i].name}</a>
                 <p class="product__price">${products[i].price.toFixed(2)}${products[i].currency}</p>
                 <div class="samis-button_link-container">
-                    <a href="store-product.html?id=${products[i].code}" id=${products[i].code}  class="add-btn samis-button">ADD TO CART</a>
+                    <a href="store-product?id=${products[i].code}#cart-badge" id=${products[i].code}  class="add-btn samis-button">ADD TO CART</a>
                 </div>
             </div>`
             slides.push(content)

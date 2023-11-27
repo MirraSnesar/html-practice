@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const selectedProduct = catalogue.products.find( (product) => product.code === productIdentifier)
 
-    document.querySelector('.storeproduct__image').images = selectedProduct.images[0]
-    document.querySelector('.storeproduct__image').description = `${selectedProduct.name}`
-    document.querySelector('.storeproduct__thumbnail').images = selectedProduct.images[0]
-    document.querySelector('.storeproduct__thumbnail').description = `${selectedProduct.name}`
+    document.querySelector('.storeproduct__image').src = selectedProduct.images[0]
+    document.querySelector('.storeproduct__image').alt = `${selectedProduct.name}`
+    document.querySelector('.storeproduct__thumbnail').src = selectedProduct.images[0]
+    document.querySelector('.storeproduct__thumbnail').alt = `${selectedProduct.name}`
     if (selectedProduct.inStock) {
         document.querySelector('.storeproduct__instockindicator').innerHTML = 'In Stock'
     } else {
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     websiteLogo.addEventListener('click', () => window.location.href = "index.html")
 
     const cartButton = document.querySelector('.add-btn')
-    cartButton.href = `store-product.html?id=${productIdentifier}#cart-badge`
+    cartButton.href = `store-product?id=${productIdentifier}#cart-badge`
 
     })
 
